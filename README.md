@@ -25,6 +25,7 @@ Membangun model yang mampu menjawab: **"Dari kategori mana teks ini berasal?"** 
 ---
 
 ## 🔬 Metode
+```
 Raw Text
 ↓
 Preprocessing (cleaning, normalisasi)
@@ -36,6 +37,8 @@ Feature Extraction
 SVM Classifier (kernel=linear)
 ↓
 Output: Prediksi kategori + confidence score
+```
+
 ---
 
 ## 📈 Hasil
@@ -51,6 +54,7 @@ Output: Prediksi kategori + confidence score
 ---
 
 ## 📁 Struktur Project
+```
 authorship-identification-id/
 ├── data/
 │   ├── raw/                  # Data mentah hasil scraping
@@ -63,6 +67,8 @@ authorship-identification-id/
 │   └── model.py              # Training & evaluasi SVM
 ├── results/                  # Confusion matrix & visualisasi
 └── requirements.txt
+```
+
 ---
 
 ## 🛠️ Cara Menjalankan
